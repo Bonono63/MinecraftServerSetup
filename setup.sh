@@ -8,7 +8,6 @@ FABRIC_API=https://cdn.modrinth.com/data/P7dR8mSH/versions/0.56.0+1.19/fabric-ap
 LAZYDFU=https://cdn.modrinth.com/data/hvFnDODi/versions/0.1.3/lazydfu-0.1.3.jar
 SMOOTH_BOOT=https://cdn.modrinth.com/data/FWumhS4T/versions/1.19-1.7.1/smoothboot-fabric-1.19-1.7.1.jar
 KRYPTON=https://cdn.modrinth.com/data/fQEb0iXm/versions/0.2.0/krypton-0.2.0.jar
-PLASMA_VOICE=
 FERRITE_CORE=https://cdn.modrinth.com/data/uXXizFIs/versions/5.0.0-fabric/ferritecore-5.0.0-fabric.jar
 VERY_MANY_PLAYER=https://cdn.modrinth.com/data/wnEe9KBa/versions/0.2.0+beta.4.0+1.19/vmp-fabric-mc1.19-0.2.0%2Bbeta.4.0-all.jar
 KSYXIS=https://cdn.modrinth.com/data/2ecVyZ49/versions/1.1/Ksyxis-1.1.jar
@@ -16,12 +15,17 @@ SERVER_CORE=https://cdn.modrinth.com/data/4WWQxlQP/versions/1.3.0/servercore-1.3
 MEMORY_LEAK_FIX=https://cdn.modrinth.com/data/NRjRiSSD/versions/v0.4.1/memoryleakfix-1.19-0.4.1.jar
 CARPET=https://github.com/gnembon/fabric-carpet/releases/download/1.4.79/fabric-carpet-1.19-1.4.79+v220607.jar
 CARPET_FIXES=https://cdn.modrinth.com/data/7Jaxgqip/versions/v1.9.2/carpet-fixes-1.19-1.9.2.jar
+PLASMA_VOICE=https://cdn.modrinth.com/data/1bZhdhsH/versions/fabric-1.19-1.2.15/plasmovoice-fabric-1.19-1.2.15.jar
+STYLED_CHAT=https://cdn.modrinth.com/data/doqSKB0e/versions/1.3.2+1.19/styled-chat-1.3.2%2B1.19.jar
+STYLED_PLAYER_LIST=https://cdn.modrinth.com/data/DQIfKUHf/versions/2.2.1+1.19/styledplayerlist-2.2.1%2B1.19.jar
+SPARK=https://cdn.modrinth.com/data/l6YH9Als/versions/1.9.12-fabric/spark-1.9.13-fabric.jar
 
 # download mods and make mods folder
 
 mkdir mods
 cd mods
 
+# PERFORMANCE
 wget $LITHIUM
 wget $STARLIGHT
 wget $C2ME
@@ -29,7 +33,6 @@ wget $FABRIC_API
 wget $LAZYDFU
 wget $SMOOTH_BOOT
 wget $KRYPTON
-wget $PLASMA_VOICE
 wget $FERRITE_CORE
 wget $VERY_MANY_PLAYER
 wget $KSYXIS
@@ -37,6 +40,12 @@ wget $SERVER_CORE
 wget $MEMORY_LEAK_FIX
 wget $CARPET
 wget $CARPET_FIXES
+
+# COSMETIC AND MEMES
+wget $PLASMA_VOICE
+wget $STYLED_CHAT
+wget $WTYLES_PLAYER_LIST
+wget $SPARK
 
 cd ..
 
